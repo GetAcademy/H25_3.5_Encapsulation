@@ -1,2 +1,4 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using H25_3._5_Encapsulation;
+
+Demo3.Run();
+
