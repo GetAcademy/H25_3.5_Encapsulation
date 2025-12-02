@@ -6,7 +6,7 @@ namespace H25_3._5_Encapsulation
     {
         public static void Run()
         {
-            var list = new List();
+            var list = new MyList();
 
             while(true)
             {

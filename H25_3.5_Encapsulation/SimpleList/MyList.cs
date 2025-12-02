@@ -2,12 +2,12 @@
 
 namespace H25_3._5_Encapsulation.SimpleList
 {
-    internal class List
+    internal class MyList
     {
         private int[] _numbers;
         private int _index;
 
-        public List()
+        public MyList()
         {
             _numbers = new int[4];
         }
