@@ -8,13 +8,14 @@ namespace H25_3._5_Encapsulation
         {
             var list = new List();
 
-            while (true)
+            while(true)
             {
+                Console.Clear();
+                list.Show();
                 Console.Write("Skriv et tall: ");
                 var numberStr = Console.ReadLine();
                 var number = int.Parse(numberStr);
                 list.Add(number);
-                list.Show();
             }
         }
     }
